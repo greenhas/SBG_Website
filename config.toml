@@ -2,7 +2,7 @@
 
 baseURL = "https://eager-sinoussi-a55f5d.netlify.com/"
 languageCode = "en"
-title = ""
+title = "Simon Greenhalgh"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -12,8 +12,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "Simon Greenhalgh"
+    description = ""
 
 
     primaryColor = "#54B689"
@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Simon Greenhalgh"
-        tagline = "Frisbee Player Extraordinaire"
+        tagline = "Marketing Major, Jazz Fan, "
         avatar = "Simon_Greenhalgh_cropped.png"
 
 
@@ -48,44 +48,23 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "simongreenhalgh97@gmail.com"
 
 
-
-
-
-
-
     [params.skills]
         enable = true
 
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "Microsoft Excel"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
-        [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
-        [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Customer Data Management"
 
         [[params.skills.list]]
         title = "Professional"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Sales"
         [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
-
-
-
+        details = "Management"
+    
 
 
 
@@ -98,11 +77,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         degree = "Bachelor of Business Administration"
         university = "University of Utah"
         dates = "expected 2020"
-    
-
-
-
-
+        [[params.education.list.items]]
+        details = "Major: Marketing"
+        [[params.education.list.items]]
+        details = "Minor: Sports Management"
+        
 
 
     [params.awards]
