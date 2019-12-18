@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Simon Greenhalgh"
-        tagline = "Marketing Major, Jazz Fan, "
+        tagline = "Marketing Major, Jazz Fan, Sales Professional"
         avatar = "Simon_Greenhalgh_cropped.png"
 
 
@@ -74,14 +74,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "Bachelor of Business Administration"
-        university = "University of Utah"
+        degree = "Bachelor of Business Administration in Marketing"
+        university = "David Eccles School of Business; University of Utah"
         dates = "expected 2020"
-        [[params.education.list.items]]
-        details = "Major: Marketing"
-        [[params.education.list.items]]
-        details = "Minor: Sports Management"
-        
+        [[params.education.list]]
+        degree = "Minor in Sports Management"
+        university = "Parks, Recreation, and Tourism Department; University of Utah"
+        dates = "expected 2020"
 
 
     [params.awards]
@@ -116,38 +115,22 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
-
     [params.interests]
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Ultimate Frisbee"
         [[params.interests.list]]
-        name = "Snowboarding"
+        name = "Hiking"
         [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
-
-
-
-
-
+        name = "Board Games"
+        
 
 
 
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
-
-
-
-
-
-
+        text = "I am a student at the David Eccles School of Business majoring in Marketing with an emphasis in Personal Selling and Business Development. I also have a Minor with the Parks, Recreation, and Tourism Department in Sports Management. Within the business school, I have developed passions and skills in customer data, sales, management, and Microsoft Excel. "
 
 
     [params.experience]
@@ -156,22 +139,31 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list]]
         title = "Market Research Intern"
         dates = "August 2019 - present"
-        company = "WINTERSTEIGER AG"
-        details = ""
+        company = "WINTERSTEIGER AG, Salt Lake City, UT"
         [[params.experience.list.items]]
         details = "Researched and identified markets for new products using various analysis strategies."
         [[params.experience.list.items]]
         details = "Used data from research to write business plan that was used by upper level management."
         
-       
+        [[params.experience.list]]
+        title = "Operations Intern"
+        dates = "July 2019 - August 2019"
+        company = "Western & Southern Open, Mason, OH"
+        [[params.experience.list.items]]
+        details = "Planned and executed an ATP Masters 1000 Level Tennis tournament."
+        [[params.experience.list.items]]
+        details = "Primarily worked with the Operations and On-court departments prior and during the tournament."
 
-
-
-
-
-
-
-
+        [[params.experience.list]]
+        title = "Business Office Intern"
+        dates = "October 2018 - July 2019"
+        company = "University of Utah Athletics; Salt Lake City, UT"
+        
+         [[params.experience.list]]
+        title = "Student Ambassador for Microsoft Division"
+        dates = "September 2017 - November 2018"
+        company = "Education at Work, Salt Lake City, UT"
+        details = "Served primarily as a student recruiter to find undergraduate and graduate students at the University of Utah to work on behalf of Microsoft as Tech Ambassadors."
 
 
 
@@ -203,7 +195,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
