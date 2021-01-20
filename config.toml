@@ -124,11 +124,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Things I am passionate about:
-<br>1. Helping others succeed
-<br>2. Becoming the best team member possible
-<br>3. Solving problems creatively, ethically, and efficiently
-<br>4. Improving myself "
+        text = "Things I am passionate about: 1. Helping others succeed <br>2. Becoming the best team member possible <br>3. Solving problems creatively, ethically, and efficiently <br>4. Improving myself "
 
 
     [params.experience]
