@@ -1,38 +1,23 @@
 # Page settings
 
-baseURL = "https://eager-sinoussi-a55f5d.netlify.com/"
+baseURL = "https://simon-greenhalgh.com/"
 languageCode = "en"
 title = "Simon Greenhalgh"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
-
-
-
-
-
 [params]
     author = "Simon Greenhalgh"
     description = ""
 
-
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
-
-
-
 
     [params.profile]
         enable = true
         name = "Simon Greenhalgh"
-        tagline = "Marketing Major, Jazz Fan, Sales Professional"
+        tagline = "Finance Professional, Jazz Fan, Problem Solver"
         avatar = "Simon_Greenhalgh_cropped.png"
-
-
-
-
-
-
 
     [params.contact]
         enable = true
@@ -50,6 +35,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.skills]
         enable = true
+        
+        [[params.skills.list]]
+        title = "Qualifications"
+        [[params.skills.list.items]]
+        details = "Pursuing SIE License"
+        [[params.skills.list.items]]
+        details = "Pursuing Series 7 License"
+        [[params.skills.list.items]]
+        details = "Pursuing Series 66 License"
 
         [[params.skills.list]]
         title = "Technical"
@@ -76,11 +70,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.education.list]]
         degree = "Bachelor of Business Administration in Marketing"
         university = "David Eccles School of Business; University of Utah"
-        dates = "expected 2020"
+        dates = "2020"
         [[params.education.list]]
         degree = "Minor in Sports Management"
         university = "Parks, Recreation, and Tourism Department; University of Utah"
-        dates = "expected 2020"
+        dates = "2020"
 
 
     [params.awards]
@@ -130,7 +124,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "I am a student at the David Eccles School of Business majoring in Marketing with an emphasis in Personal Selling and Business Development. I also have a Minor with the Parks, Recreation, and Tourism Department in Sports Management. Within the business school, I have developed passions and skills in customer data, sales, management, and Microsoft Excel. "
+        text = "Things I am passionate about:
+<br>1. Helping others succeed
+<br>2. Becoming the best team member possible
+<br>3. Solving problems creatively, ethically, and efficiently
+<br>4. Improving myself "
 
 
     [params.experience]
@@ -164,8 +162,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "September 2017 - November 2018"
         company = "Education at Work, Salt Lake City, UT"
         details = "Served primarily as a student recruiter to find undergraduate and graduate students at the University of Utah to work on behalf of Microsoft as Tech Ambassadors."
-
-
 
     [params.projects]
         enable = false
@@ -222,10 +218,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/simon-greenhalgh-38038b178"
         title = "LinkedIn"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/SimonGhalgh"
-        title = "Twitter"
 
 
 
